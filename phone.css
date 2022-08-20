@@ -103,9 +103,10 @@ button:hover{
 
 
 h1{
-    font-size: 21.2px;
-    font-weight: 500;
-    margin-top: 1px;
+    font-size: 24.2px;
+    font-weight: 650;
+    margin-top: 32px;
+    margin-bottom: 40px;
     /* padding: 3px 4px 2px 1px; */ 
     color: #222;
     letter-spacing: 5px;
@@ -115,6 +116,12 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
+
+h1:hover{
+            box-shadow: inset 100px 0 0 0 #54b3d6 ;
+            color: white;
+}
+
 
 @keyframes animate {
     0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
